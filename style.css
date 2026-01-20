@@ -299,6 +299,12 @@ body {
     object-fit: cover;
 }
 
+/* Specific styling for The Kingdom ZALARI GANZA book (Book 5) */
+.book-card:nth-child(5) .book-image {
+    object-fit: contain;
+    background-color: #f8f9fa;
+}
+
 .book-details {
     padding: 1.5rem;
     flex: 1 1 auto;
